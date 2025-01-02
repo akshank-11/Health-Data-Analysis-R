@@ -1,5 +1,7 @@
 # Exploring Preoperative Lab Results and Surgical Outcomes
 
+## Team: Akshitha Shankar, Meghana Santosh, Rithvik Gurajala, Rohith Pillai
+
 ### Project Overview
 This project investigates the association between preoperative laboratory parameters and key surgical outcomes, including 
 Length of Hospital Stay (LoHS), in-hospital mortality (death_in_hosp), and ICU stay duration. Using a high-resolution dataset of 5,800+ surgical cases, 
