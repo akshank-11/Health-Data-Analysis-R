@@ -1,10 +1,8 @@
- install.packages("tidyverse")
+install.packages("tidyverse")
 library(tidyverse)
  
-#Import the Clinical Data.  Study the data first.  This will save you significant time.
+#Import the Clinical Data
  
- 
-#this is just to encourage you to look at variables like age, and LoHS
 min(clinical_data$age)
 max(clinical_data$age)
 mean(clinical_data$age)
@@ -18,8 +16,6 @@ clinical_data <- clinical_data %>%
                            	(age >=55 & age < 65) ~ "55-64",
                            	age >=65 ~ "65-older"))
  
- 
-#Please paste your R code after this with appropriate comments
  
 #####Summary of preop variables######
  summary(clinical_data[c("preop_hb", "preop_plt", "preop_aptt", "preop_gluc", "preop_alb", 
